@@ -3,6 +3,7 @@ MAINTAINER Francois Villain <f.villain@linkbynet.com>
 
 COPY index.php /var/www/html/
 
+USER root
 EXPOSE 9000
 
 VOLUME ["/var/www/html"]
